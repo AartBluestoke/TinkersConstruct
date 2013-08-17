@@ -65,7 +65,7 @@ public class SmelteryDrainLogic extends MultiServantLogic implements ITankContai
             if (doFill)
             {
                 SmelteryLogic smeltery = (SmelteryLogic) worldObj.getBlockTileEntity(master.x, master.y, master.z);
-                return smeltery.fill(resource.Copy(), doFill);
+                return smeltery.fill(resource.copy(), doFill);
             }
             else
             {
